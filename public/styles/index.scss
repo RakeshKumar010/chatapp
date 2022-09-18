@@ -26,7 +26,7 @@ $fsize: 16px;
     box-sizing: border-box;
     font-family: $font-text;
     ::-webkit-scrollbar{
-        display: none;
+        display:none;
     }
 }
 
@@ -93,7 +93,7 @@ main{
             border-radius: 10px;
             background-color: $drak-grey;
             div.chats{
-                height: 66vh;
+                height: 65vh;
                 padding: 20px;
                 overflow-y: auto;
                 div.user-join{

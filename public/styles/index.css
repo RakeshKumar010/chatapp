@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+* ::-webkit-scrollbar {
+  display: none;
+}
 
 main {
   position: absolute;
@@ -79,8 +82,9 @@ main div.container div.chat-window {
   background-color: #3f3f3f;
 }
 main div.container div.chat-window div.chats {
-  min-height: 66vh;
+  height: 65vh;
   padding: 20px;
+  overflow-y: auto;
 }
 main div.container div.chat-window div.chats div.user-join {
   font-size: 0.9rem;
